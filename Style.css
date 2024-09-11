@@ -1,0 +1,90 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.links ul {
+    color: #888;
+}
+
+li {
+    border-bottom: 1px solid #333;
+}
+
+.quote {
+    font-family: "Parisienne", cursive;
+}
+
+.vcp {
+    font-size: 18px;
+}
+
+.logo {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    margin-top: -8rem;
+    padding-bottom: 2rem;
+}
+
+.footh1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: white;
+}
+.footp {
+    letter-spacing: 1px;
+    color: #666;
+    font-size: 12px;
+}
+.footp2 {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #666;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+/* About CSS */
+
+.Dara {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 10%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 2rem;
+}
+
+.footer p {
+    letter-spacing: 1px;
+    color: #666;
+    font-size: 12px;
+}
+
+.chatwith {
+    border: 1px solid #333;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chatwith:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+    <title>Ken Williams | Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="bg-neutral-900">
+    <div class="flex">
+      <div class="bg-black z-50 inline-block text-white h-screen fixed p-20 lg:block hidden" id="menu">
+        <div class="text-center">
+          <div class="lg:mt-5">
+            <label for="logo" class="flex flex-row justify-center items-center">
+            <img src="img/Logo/Dara Studios Logo.png" class="w-20 lg:w-28 -ml-10 lg:-ml-10" alt="">
+            </label>
+          </div>
+          <p class="text-neutral-500 mt-2 lg:-ml-10 -ml-10 vcp lg:text-lg text-sm">Video Creator</p>
+        </div>
+  
+        <div class="links">
+          <ul class="mt-20 text-neutral-500 -ml-12 text-sm md:block">
+            <li class="py-3"><a href="Index.html" class="hover:text-white">Home</a></li>
+            <li class="py-3"><a href="About.html" class="hover:text-white">About</a></li>
+            <li class="py-3"><a href="Services.html" class="hover:text-white">Services</a></li>
+            <li class="py-3"><a href="Portfolio.html" class="hover:text-white">Portfolio</a></li>
+            <li class="py-3"><a href="Contact.html" class="hover:text-white">Contact</a></li>
+            <li class="py-3"><a href="FAQs.html" class="hover:text-white">FAQs</a></li>
+          </ul>
+        </div>
+  
+        <div class="grid-cols-3 gap grid mt-10 -ml-5 text-1xl">
+          <a href="https://www.instagram.com/darawilliam.s/" class="hover:text-neutral-500"><i class="fa-brands fa-instagram"></i></a>
+          <a href="http://wa.me/2347082313155?
+          text=Hello%20I%20want%20to%20Create%20a%20Product%20Video%20for%20my%20Brand" class="hover:text-neutral-500"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.tiktok.com/@dara__studios?is_from_webapp=1&sender_device=pc" class="hover:text-neutral-500"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+
+        <p class="-ml-10 lg:-ml-10 mt-10 text-neutral-500">&copy; 2024 Dara Williams</p>
+      </div>
+  
+      <div class="z-50 pt-10 pl-5 text-white absolute cursor-pointer lg:hidden" id="burger">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-8 h-8"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+          />
+        </svg>
+      </div>
+    
+
+    <section class="text-white lg:w-full lg:h-full h-full w-full lg:ml-72 ">
+      <div class="pt-28 lg:ml-100 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400"">
+        <p class="text-center text-neutral-500 -mt-10 lg:-mt-10 ml-5 text-sm">MY WORKS</p>
+        <h1 class="text-4xl text-center lg:ml-5 ml-5 font-bold">Portfolio</h1>
+      </div>
+
+      <div class="mt-20 flex flex-col justify-center items-center -ml-28 lg:-ml-28 lg:flex lg:flex-row lg:justify-center lg:items-center md:flex md:flex-row md:items-center md:justify-center md:-ml-28 md:px-10">
+        <div class="ml-32">
+            <video poster="img/Monster.png" autoplay loop muted controls src="img/Monster Energy Drink Product Video.compressed.mp4" class="w-72"></video>
+            <p class="text-neutral-500 mt-5">MONSTER ENERGY DRINK</p>
+        </div>
+
+        <div class="ml-32 mt-10 lg:-mt-0 md:-mt-0">
+            <video poster="img/Durex.png" autoplay loop muted controls src="img/Durex 1.mp4" class="w-72"></video>
+            <p class="text-neutral-500 mt-5">DUREX</p>
+        </div>
+
+        <div class="ml-32 mt-10 lg:-mt-0 lg:mr-10 md:-mt-0">
+            <video poster="img/Blazers.png" autoplay loop muted controls src="img/Blazers Video 2.compressed.mp4" class="w-72 md:w-96"></video>
+            <p class="text-neutral-500 mt-5">BLAZERS</p>
+        </div>
+      </div>
+
+        <!---------------------------- ------------------------------ -->
+        <div class="mt-0 lg:mt-10 flex flex-col justify-center items-center -ml-28 lg:-ml-28 lg:flex lg:flex-row lg:justify-center lg:items-center md:flex md:flex-row md:items-center md:justify-center md:-ml-28 md:px-10">
+            <div class="ml-32 mt-10 lg:mt-0">
+                <video poster="img/Antforce.png" autoplay loop muted controls src="img/Ant Force 1a.compressed.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">ANT FORCE</p>
+            </div>
+    
+            <div class="ml-32 mt-10 lg:ml-28 lg:-mt-0">
+                <video poster="img/Jump.png" autoplay loop muted controls src="img/Jumps to Kicks Reveal Video.compressed.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">JUMPS TO KICKS</p>
+            </div>
+    
+            <div class="ml-32 mt-10 lg:-mt-0 lg:mr-10">
+                <video poster="img/Lagossketch.png" autoplay loop muted controls src="img/Lagos Sketch Sneakers Video 2.compressed.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">LAGOS SKETCH SNEAKERS</p>
+            </div>
+        </div>
+        <!---------------------------- ------------------------------ -->
+        <div class="mt-10 lg:mt-10 flex flex-col justify-center items-center -ml-28 lg:-ml-28 lg:flex lg:flex-row lg:justify-center lg:items-center md:flex md:flex-row md:items-center md:justify-center md:-ml-28 md:px-10">
+            <div class="ml-32 lg:-mt-10">
+                <video poster="img/Amphora.png" autoplay loop muted controls src="img/Amphora Wine 1.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">AMPHORA WINE</p>
+            </div>
+    
+            <div class="ml-32 mt-10 lg:-mt-0 md:-mt-0">
+                <video poster="img/Bastardo.png" autoplay loop muted controls src="img/Wine Ad Video.compressed.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">BASTARDO WINE</p>
+            </div>
+    
+            <div class="ml-32 mt-10 lg:-mt-0 lg:mr-10 md:-mt-0">
+                <video poster="img/df.png" autoplay loop muted controls src="img/Dr Few Supreme Oil Serum Product Video_1.compressed.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">DR. FEW SUPREME OIL SERUM</p>
+            </div>
+        </div>
+        <!---------------------------- ------------------------------ -->
+        <div class="mt-10 lg:mt-20 flex flex-col justify-center items-center -ml-28 lg:-ml-28 lg:flex lg:flex-row lg:justify-center lg:items-center md:flex md:flex-row md:items-center md:justify-center md:-ml-28 md:px-10">
+            <div class="ml-32 lg:-mt-10 md:-mt-10">
+                <video poster="img/viva.png" autoplay loop muted controls src="img/Viva Ad Video.compressed.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">VIVA</p>
+            </div>
+     
+            <div class="ml-32 mt-10 lg:-mt-10 md:-mt-10">
+                <video poster="img/Magiclips.png" autoplay loop muted controls src="img/Magic Lipstick 3.compressed.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">MAGIC LIPSTIC</p>
+            </div>
+    
+            <div class="ml-32 mt-10 lg:-mt-10 lg:mr-10 md:-mt-10">
+                <video poster="img/Seaking3.jpg" autoplay loop muted controls src="img/Seaking 3.compressed.mp4" class="w-72"></video>
+                <p class="text-neutral-500 mt-5">SEEKING</p>
+            </div>
+      </div>
+
+        <!-- ------------------------------------------------------------ -->
+      <div class="flex flex-col justify-center items-center -ml-28 lg:-ml-28 lg:flex lg:flex-row lg:justify-between lg:items-center md:mt-20 md:flex md:flex-row md:items-center md:justify-between md:-ml-28 md:px-10">
+        <div class="ml-28 mt-10 lg:mt-10 lg:ml-32 md:-mt-10 md:ml-32">
+          <video poster="img/Chiexotic.png" autoplay loop muted controls src="img/Chi Exotic Spec Ad.compressed new.mp4" class="w-72 lg:w-80 md:w-56"></video>
+          <p class="text-neutral-500 mt-5">CHI-EXOTIC</p>
+        </div>
+  
+        <div class="ml-28 mt-10 lg:mt-10 lg:ml-0 md:-mt-10 md:ml-80">
+          <video poster="img/confidence.png" autoplay loop muted controls src="img/Confidence 2.compressed.mp4" class="w-72 lg:w-80"></video>
+          <p class="text-neutral-500 mt-5">CONFIDENCE</p>
+        </div>
+      </div>
+
+  <section>
+    <div class="px-10 mt-32">
+      <h1 class="text-1xl lg:text-2xl md:text-2xl text-center text-neutral-500 lg:ml-10 ml-5">Some Brands i have <b>Collaborated</b> with</h1>
+      <div class="lg:flex lg:justify-center lg:flex-row lg:items-center flex flex-col justify-center items-center md:flex md:flex-row md:items-center md:justify-center mt-10 lg:-mt-10 lg:ml-5">
+        <img src="img/Logo/1680287193223.png" class="w-20 h-20 lg:w-20 lg:h-20 hover:scale-110 md:mt-10 delay-[100ms] duration-[1000ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400"" alt="">
+        <img src="img/Logo/1691704117114.png" class="w-20 h-20 lg:w-20 lg:h-20 mt-10 md:ml-10 lg:w-32 hover:scale-110 lg:ml-10 delay-[300ms] duration-[1000ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400"" alt="">
+        <img src="img/Logo/Euro Global.png" class="w-28 h-28 lg:w-28 lg:h-28 mt-10 md:ml-10 hover:scale-110 lg:ml-10 delay-[500ms] duration-[1000ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400"" alt="">
+        <img src="img/Logo/Dr_Few-Monogram-Red.png" class="w-20 h-10 mt-20 lg:w-20 lg:h-10 md:ml-10 md:mt-10 lg:w-20 lg:mt-10 lg:h-10 hover:scale-110 lg:ml-10 delay-[700ms] duration-[1000ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400"" alt="">
+        <img src="img/Logo/Ant Force 1.png" class="w-48 h-56 lg:w-48 lg:h-56 -ml-0 md:ml-10 md:mt-10 lg:w-48 hover:scale-110 lg:mt-10 lg:w-48 lg:h-48 lg:ml-10 delay-[900ms] duration-[1000ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400"" alt="">
+        <!-- <img src="img/Farm Flavors.png" class="w-28 h-28 md:ml-10 hover:scale-110 -ml-5 lg:w-48 lg:h-48 delay-[1000ms] duration-[1000ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400"" alt=""> -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="lg:ml-0 flex flex-col justify-center items-center lg:flex lg:flex-col lg:justify-center lg:items-center lg:mt-56 mt-56 md:ml-10 lg:-ml-5 lg:-mt-10">
+    <label for="logo" class="flex flex-row justify-center items-center">
+      <img src="img/Logo/Dara Studios Logo.png" class="w-28" alt="">
+      </label>
+    <p class="footp mt-2">VIDEO CREATOR</p>
+    <p class="footp2">&copy; Dara Williams 2024</p>
+  </footer>
+
+    </section>
+
+    <script src="Index.js"></script>
+    <script src="tailwind.config.js"></script>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+  </body>
+</html>
